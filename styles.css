@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #232326;
+    padding: 0;
+    height: 90vh;
+   
+}
+
+.search-container {
+    /* max-width: 6; */
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search-bar {
+    width: 40vw;
+    padding: 10px;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgb(212, 205, 205);
+    border-color: #70757a;
+}
+
+.search-button, .advanced-button {
+    
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-button-bar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-link {
+    display: block;
+    margin-top: 10px;
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.more-options{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 14px;
+    margin-top: 10px;
+}
+
+/* Additional Styling for Google's Logo and Footer */
+.logo {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+.footer {
+    margin-top: 100px;
+       
+    font-size: 12px;
+    color: #70757a;
+}
+
+
+
+.text-primary{
+    font-size: 2rem;
+    color: gray;
+}
